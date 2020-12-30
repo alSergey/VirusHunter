@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0B220C249ED1F6000CE7AC /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = AC0B220B249ED1F6000CE7AC /* ResourcePath.mm */; };
+		AC0B220F249ED1F6000CE7AC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC0B220E249ED1F6000CE7AC /* main.cpp */; };
+		AC5A7D9F24A37B5D00F54A6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A7D9E24A37B5D00F54A6E /* Images.xcassets */; };
+		AC639CBF24C8DD2E00436853 /* GameTreatPatientProgressBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC639CBE24C8DD2E00436853 /* GameTreatPatientProgressBar.cpp */; };
+		AC86CCC224A3D9C0007D9C2D /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCBF24A3D9C0007D9C2D /* tinyxmlerror.cpp */; };
+		AC86CCC324A3D9C0007D9C2D /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCC024A3D9C0007D9C2D /* tinyxml.cpp */; };
+		AC86CCC424A3D9C0007D9C2D /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCC124A3D9C0007D9C2D /* tinyxmlparser.cpp */; };
+		AC86CCE424A3DAB6007D9C2D /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCDE24A3DAB6007D9C2D /* GameManager.cpp */; };
+		AC86CCE524A3DAB6007D9C2D /* Level_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCDF24A3DAB6007D9C2D /* Level_map.cpp */; };
+		AC86CCE624A3DAB6007D9C2D /* MusicManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCE024A3DAB6007D9C2D /* MusicManager.cpp */; };
+		AC86CCE724A3DAB6007D9C2D /* SaveGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCE124A3DAB6007D9C2D /* SaveGame.cpp */; };
+		AC86CCED24A3DAC1007D9C2D /* Antibodies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCE824A3DAC1007D9C2D /* Antibodies.cpp */; };
+		AC86CCEE24A3DAC1007D9C2D /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCE924A3DAC1007D9C2D /* Player.cpp */; };
+		AC86CCEF24A3DAC1007D9C2D /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCEA24A3DAC1007D9C2D /* Entity.cpp */; };
+		AC86CCF024A3DAC1007D9C2D /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCEB24A3DAC1007D9C2D /* Bullet.cpp */; };
+		AC86CCF124A3DAC1007D9C2D /* Sick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCEC24A3DAC1007D9C2D /* Sick.cpp */; };
+		AC86CCF524A3DAC7007D9C2D /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCF224A3DAC7007D9C2D /* Enemy.cpp */; };
+		AC86CCF624A3DAC7007D9C2D /* Police.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCF324A3DAC7007D9C2D /* Police.cpp */; };
+		AC86CCFB24A3DACD007D9C2D /* SafeTransport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCF824A3DACC007D9C2D /* SafeTransport.cpp */; };
+		AC86CCFC24A3DACD007D9C2D /* UnSafeTransport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCF924A3DACC007D9C2D /* UnSafeTransport.cpp */; };
+		AC86CCFD24A3DACD007D9C2D /* Transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCFA24A3DACC007D9C2D /* Transport.cpp */; };
+		AC86CD0224A3DAD3007D9C2D /* Shoes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCFE24A3DAD3007D9C2D /* Shoes.cpp */; };
+		AC86CD0324A3DAD3007D9C2D /* Robe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CCFF24A3DAD3007D9C2D /* Robe.cpp */; };
+		AC86CD0424A3DAD3007D9C2D /* Armor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CD0024A3DAD3007D9C2D /* Armor.cpp */; };
+		AC86CD0524A3DAD3007D9C2D /* Cap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CD0124A3DAD3007D9C2D /* Cap.cpp */; };
+		AC86CD0824A3DAD9007D9C2D /* AnimationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CD0624A3DAD9007D9C2D /* AnimationManager.cpp */; };
+		AC86CD0924A3DAD9007D9C2D /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CD0724A3DAD9007D9C2D /* Animation.cpp */; };
+		AC86CD0B24A3DC01007D9C2D /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC86CD0A24A3DC00007D9C2D /* tinystr.cpp */; };
+		AC8B853924B3A2330091BAF2 /* GameLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC8B853824B3A2330091BAF2 /* GameLabel.cpp */; };
+		AC8B853C24B3AC470091BAF2 /* GameLabelManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC8B853B24B3AC470091BAF2 /* GameLabelManager.cpp */; };
+		AC9196D124AD39AD00C28412 /* InterfaceButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9196CC24AD39AD00C28412 /* InterfaceButton.cpp */; };
+		AC9196D224AD39AD00C28412 /* InterfaceLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9196CD24AD39AD00C28412 /* InterfaceLabel.cpp */; };
+		AC9196D324AD39AD00C28412 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9196CE24AD39AD00C28412 /* Interface.cpp */; };
+		AC9196D424AD39AD00C28412 /* InterfaceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9196CF24AD39AD00C28412 /* InterfaceTable.cpp */; };
+		AC9196D524AD39AD00C28412 /* InterfaceImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9196D024AD39AD00C28412 /* InterfaceImage.cpp */; };
+		ACB0D85524D367CF0005A1F0 /* Breaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB0D85224D367CF0005A1F0 /* Breaker.cpp */; };
+		ACB0D85624D367CF0005A1F0 /* Virus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB0D85324D367CF0005A1F0 /* Virus.cpp */; };
+		ACB0D85724D367CF0005A1F0 /* Delivery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACB0D85424D367CF0005A1F0 /* Delivery.cpp */; };
+		ACD5BC4824F8447C00F2741E /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC3B24F8447C00F2741E /* FLAC.framework */; };
+		ACD5BC4924F8447C00F2741E /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC3C24F8447C00F2741E /* sfml-graphics.framework */; };
+		ACD5BC4A24F8447C00F2741E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC3D24F8447C00F2741E /* OpenAL.framework */; };
+		ACD5BC4B24F8447C00F2741E /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC3E24F8447C00F2741E /* vorbis.framework */; };
+		ACD5BC4C24F8447C00F2741E /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC3F24F8447C00F2741E /* sfml-window.framework */; };
+		ACD5BC4D24F8447C00F2741E /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4024F8447C00F2741E /* SFML.framework */; };
+		ACD5BC4E24F8447C00F2741E /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4124F8447C00F2741E /* sfml-network.framework */; };
+		ACD5BC4F24F8447C00F2741E /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4224F8447C00F2741E /* sfml-system.framework */; };
+		ACD5BC5024F8447C00F2741E /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4324F8447C00F2741E /* vorbisfile.framework */; };
+		ACD5BC5124F8447C00F2741E /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4424F8447C00F2741E /* vorbisenc.framework */; };
+		ACD5BC5224F8447C00F2741E /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4524F8447C00F2741E /* ogg.framework */; };
+		ACD5BC5324F8447C00F2741E /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4624F8447C00F2741E /* freetype.framework */; };
+		ACD5BC5424F8447C00F2741E /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD5BC4724F8447C00F2741E /* sfml-audio.framework */; };
+		ACD5BC9924F844F800F2741E /* files in Resources */ = {isa = PBXBuildFile; fileRef = ACD5BC5524F8449F00F2741E /* files */; };
+		ACF5034724E2C06F00150BEC /* ButtonsPressed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF5034624E2C06F00150BEC /* ButtonsPressed.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7051DBB424DD5C6A00BFD764 /* VirusHunter.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = VirusHunter.entitlements; sourceTree = "<group>"; };
+		7051DBB524DD5C6A00BFD764 /* VirusHunter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VirusHunter-Info.plist"; sourceTree = "<group>"; };
+		AC0B2206249ED1F6000CE7AC /* VirusHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirusHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0B220B249ED1F6000CE7AC /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		AC0B220D249ED1F6000CE7AC /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		AC0B220E249ED1F6000CE7AC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC5A7D9E24A37B5D00F54A6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC639CBE24C8DD2E00436853 /* GameTreatPatientProgressBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameTreatPatientProgressBar.cpp; sourceTree = "<group>"; };
+		AC639CC024C8DD3700436853 /* GameTreatPatientProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTreatPatientProgressBar.h; sourceTree = "<group>"; };
+		AC86CCA024A3D92A007D9C2D /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		AC86CCA124A3D92A007D9C2D /* Level_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level_map.h; sourceTree = "<group>"; };
+		AC86CCA224A3D92A007D9C2D /* SaveGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveGame.h; sourceTree = "<group>"; };
+		AC86CCA324A3D92A007D9C2D /* MusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManager.h; sourceTree = "<group>"; };
+		AC86CCAD24A3D991007D9C2D /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		AC86CCAE24A3D996007D9C2D /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		AC86CCAF24A3D996007D9C2D /* AnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationManager.h; sourceTree = "<group>"; };
+		AC86CCB024A3D9A1007D9C2D /* Antibodies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Antibodies.h; sourceTree = "<group>"; };
+		AC86CCB124A3D9A1007D9C2D /* Sick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sick.h; sourceTree = "<group>"; };
+		AC86CCB224A3D9A1007D9C2D /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		AC86CCB324A3D9A1007D9C2D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AC86CCB424A3D9A1007D9C2D /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		AC86CCB524A3D9A7007D9C2D /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		AC86CCB724A3D9A7007D9C2D /* Police.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Police.h; sourceTree = "<group>"; };
+		AC86CCB824A3D9AC007D9C2D /* SafeTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeTransport.h; sourceTree = "<group>"; };
+		AC86CCB924A3D9AC007D9C2D /* UnSafeTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnSafeTransport.h; sourceTree = "<group>"; };
+		AC86CCBA24A3D9AC007D9C2D /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
+		AC86CCBB24A3D9B2007D9C2D /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		AC86CCBC24A3D9B2007D9C2D /* Robe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robe.h; sourceTree = "<group>"; };
+		AC86CCBD24A3D9B2007D9C2D /* Shoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoes.h; sourceTree = "<group>"; };
+		AC86CCBE24A3D9B2007D9C2D /* Cap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cap.h; sourceTree = "<group>"; };
+		AC86CCBF24A3D9C0007D9C2D /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		AC86CCC024A3D9C0007D9C2D /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		AC86CCC124A3D9C0007D9C2D /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		AC86CCDE24A3DAB6007D9C2D /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
+		AC86CCDF24A3DAB6007D9C2D /* Level_map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level_map.cpp; sourceTree = "<group>"; };
+		AC86CCE024A3DAB6007D9C2D /* MusicManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicManager.cpp; sourceTree = "<group>"; };
+		AC86CCE124A3DAB6007D9C2D /* SaveGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SaveGame.cpp; sourceTree = "<group>"; };
+		AC86CCE824A3DAC1007D9C2D /* Antibodies.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Antibodies.cpp; sourceTree = "<group>"; };
+		AC86CCE924A3DAC1007D9C2D /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AC86CCEA24A3DAC1007D9C2D /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		AC86CCEB24A3DAC1007D9C2D /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		AC86CCEC24A3DAC1007D9C2D /* Sick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sick.cpp; sourceTree = "<group>"; };
+		AC86CCF224A3DAC7007D9C2D /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		AC86CCF324A3DAC7007D9C2D /* Police.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Police.cpp; sourceTree = "<group>"; };
+		AC86CCF824A3DACC007D9C2D /* SafeTransport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SafeTransport.cpp; sourceTree = "<group>"; };
+		AC86CCF924A3DACC007D9C2D /* UnSafeTransport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnSafeTransport.cpp; sourceTree = "<group>"; };
+		AC86CCFA24A3DACC007D9C2D /* Transport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transport.cpp; sourceTree = "<group>"; };
+		AC86CCFE24A3DAD3007D9C2D /* Shoes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shoes.cpp; sourceTree = "<group>"; };
+		AC86CCFF24A3DAD3007D9C2D /* Robe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Robe.cpp; sourceTree = "<group>"; };
+		AC86CD0024A3DAD3007D9C2D /* Armor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Armor.cpp; sourceTree = "<group>"; };
+		AC86CD0124A3DAD3007D9C2D /* Cap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cap.cpp; sourceTree = "<group>"; };
+		AC86CD0624A3DAD9007D9C2D /* AnimationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationManager.cpp; sourceTree = "<group>"; };
+		AC86CD0724A3DAD9007D9C2D /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		AC86CD0A24A3DC00007D9C2D /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		AC86CD0C24A3DC1A007D9C2D /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		AC8B853524B3A1140091BAF2 /* GameLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLabel.h; sourceTree = "<group>"; };
+		AC8B853824B3A2330091BAF2 /* GameLabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameLabel.cpp; sourceTree = "<group>"; };
+		AC8B853A24B3ABFA0091BAF2 /* GameLabelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLabelManager.h; sourceTree = "<group>"; };
+		AC8B853B24B3AC470091BAF2 /* GameLabelManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameLabelManager.cpp; sourceTree = "<group>"; };
+		AC9196CC24AD39AD00C28412 /* InterfaceButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceButton.cpp; sourceTree = "<group>"; };
+		AC9196CD24AD39AD00C28412 /* InterfaceLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceLabel.cpp; sourceTree = "<group>"; };
+		AC9196CE24AD39AD00C28412 /* Interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interface.cpp; sourceTree = "<group>"; };
+		AC9196CF24AD39AD00C28412 /* InterfaceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceTable.cpp; sourceTree = "<group>"; };
+		AC9196D024AD39AD00C28412 /* InterfaceImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceImage.cpp; sourceTree = "<group>"; };
+		AC9196D724AD39D500C28412 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		AC9196D824AD39D500C28412 /* InterfaceImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceImage.h; sourceTree = "<group>"; };
+		AC9196D924AD39D500C28412 /* InterfaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceButton.h; sourceTree = "<group>"; };
+		AC9196DA24AD39D500C28412 /* InterfaceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceTable.h; sourceTree = "<group>"; };
+		AC9196DB24AD39D500C28412 /* InterfaceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceLabel.h; sourceTree = "<group>"; };
+		ACB0D84F24D367A70005A1F0 /* Breaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Breaker.h; sourceTree = "<group>"; };
+		ACB0D85024D367A70005A1F0 /* Delivery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delivery.h; sourceTree = "<group>"; };
+		ACB0D85124D367A70005A1F0 /* Virus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Virus.h; sourceTree = "<group>"; };
+		ACB0D85224D367CF0005A1F0 /* Breaker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Breaker.cpp; sourceTree = "<group>"; };
+		ACB0D85324D367CF0005A1F0 /* Virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Virus.cpp; sourceTree = "<group>"; };
+		ACB0D85424D367CF0005A1F0 /* Delivery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Delivery.cpp; sourceTree = "<group>"; };
+		ACD5BC3B24F8447C00F2741E /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAC.framework; path = VirusHunter/SFML/Frameworks/FLAC.framework; sourceTree = "<group>"; };
+		ACD5BC3C24F8447C00F2741E /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "VirusHunter/SFML/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		ACD5BC3D24F8447C00F2741E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = VirusHunter/SFML/Frameworks/OpenAL.framework; sourceTree = "<group>"; };
+		ACD5BC3E24F8447C00F2741E /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbis.framework; path = VirusHunter/SFML/Frameworks/vorbis.framework; sourceTree = "<group>"; };
+		ACD5BC3F24F8447C00F2741E /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "VirusHunter/SFML/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		ACD5BC4024F8447C00F2741E /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = VirusHunter/SFML/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		ACD5BC4124F8447C00F2741E /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "VirusHunter/SFML/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		ACD5BC4224F8447C00F2741E /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "VirusHunter/SFML/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		ACD5BC4324F8447C00F2741E /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisfile.framework; path = VirusHunter/SFML/Frameworks/vorbisfile.framework; sourceTree = "<group>"; };
+		ACD5BC4424F8447C00F2741E /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisenc.framework; path = VirusHunter/SFML/Frameworks/vorbisenc.framework; sourceTree = "<group>"; };
+		ACD5BC4524F8447C00F2741E /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ogg.framework; path = VirusHunter/SFML/Frameworks/ogg.framework; sourceTree = "<group>"; };
+		ACD5BC4624F8447C00F2741E /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = freetype.framework; path = VirusHunter/SFML/Frameworks/freetype.framework; sourceTree = "<group>"; };
+		ACD5BC4724F8447C00F2741E /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "VirusHunter/SFML/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		ACD5BC5524F8449F00F2741E /* files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = files; sourceTree = "<group>"; };
+		ACF5034624E2C06F00150BEC /* ButtonsPressed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonsPressed.cpp; sourceTree = "<group>"; };
+		ACF5034824E2C07800150BEC /* ButtonsPressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsPressed.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0B2202249ED1F6000CE7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD5BC4824F8447C00F2741E /* FLAC.framework in Frameworks */,
+				ACD5BC4924F8447C00F2741E /* sfml-graphics.framework in Frameworks */,
+				ACD5BC4A24F8447C00F2741E /* OpenAL.framework in Frameworks */,
+				ACD5BC4B24F8447C00F2741E /* vorbis.framework in Frameworks */,
+				ACD5BC4C24F8447C00F2741E /* sfml-window.framework in Frameworks */,
+				ACD5BC4D24F8447C00F2741E /* SFML.framework in Frameworks */,
+				ACD5BC4E24F8447C00F2741E /* sfml-network.framework in Frameworks */,
+				ACD5BC4F24F8447C00F2741E /* sfml-system.framework in Frameworks */,
+				ACD5BC5024F8447C00F2741E /* vorbisfile.framework in Frameworks */,
+				ACD5BC5124F8447C00F2741E /* vorbisenc.framework in Frameworks */,
+				ACD5BC5224F8447C00F2741E /* ogg.framework in Frameworks */,
+				ACD5BC5324F8447C00F2741E /* freetype.framework in Frameworks */,
+				ACD5BC5424F8447C00F2741E /* sfml-audio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0B21FC249ED1F6000CE7AC = {
+			isa = PBXGroup;
+			children = (
+				AC0B2208249ED1F6000CE7AC /* VirusHunter */,
+				AC0B2207249ED1F6000CE7AC /* Products */,
+				ACD5BC3A24F8447C00F2741E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0B2207249ED1F6000CE7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B2206249ED1F6000CE7AC /* VirusHunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0B2208249ED1F6000CE7AC /* VirusHunter */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CC9224A3D7DD007D9C2D /* include */,
+				AC86CC9124A3D7D8007D9C2D /* src */,
+				AC0B220B249ED1F6000CE7AC /* ResourcePath.mm */,
+				AC0B220D249ED1F6000CE7AC /* ResourcePath.hpp */,
+				AC0B220E249ED1F6000CE7AC /* main.cpp */,
+				7051DBB524DD5C6A00BFD764 /* VirusHunter-Info.plist */,
+				7051DBB424DD5C6A00BFD764 /* VirusHunter.entitlements */,
+				AC0B2210249ED1F6000CE7AC /* Resources */,
+				AC5A7D9E24A37B5D00F54A6E /* Images.xcassets */,
+				AC0B2209249ED1F6000CE7AC /* Supporting Files */,
+			);
+			path = VirusHunter;
+			sourceTree = "<group>";
+		};
+		AC0B2209249ED1F6000CE7AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC0B2210249ED1F6000CE7AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACD5BC5524F8449F00F2741E /* files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC86CC9124A3D7D8007D9C2D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B853724B3A1DF0091BAF2 /* Game */,
+				AC9196CB24AD398900C28412 /* Interface */,
+				AC86CC9324A3D7E8007D9C2D /* Animation */,
+				AC86CC9424A3D7F0007D9C2D /* Entities */,
+				AC86CC9524A3D7FA007D9C2D /* Tinyxml */,
+				AC86CCDF24A3DAB6007D9C2D /* Level_map.cpp */,
+				AC86CCE024A3DAB6007D9C2D /* MusicManager.cpp */,
+				AC86CCE124A3DAB6007D9C2D /* SaveGame.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AC86CC9224A3D7DD007D9C2D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B853624B3A1C80091BAF2 /* Game */,
+				AC9196D624AD39BE00C28412 /* Interface */,
+				AC86CC9A24A3D841007D9C2D /* Animation */,
+				AC86CC9924A3D83A007D9C2D /* Entities */,
+				AC86CC9B24A3D849007D9C2D /* Tinyxml */,
+				AC86CCA124A3D92A007D9C2D /* Level_map.h */,
+				AC86CCA324A3D92A007D9C2D /* MusicManager.h */,
+				AC86CCA224A3D92A007D9C2D /* SaveGame.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AC86CC9324A3D7E8007D9C2D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CD0724A3DAD9007D9C2D /* Animation.cpp */,
+				AC86CD0624A3DAD9007D9C2D /* AnimationManager.cpp */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		AC86CC9424A3D7F0007D9C2D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CC9624A3D812007D9C2D /* Armors */,
+				AC86CC9824A3D82F007D9C2D /* Enemies */,
+				AC86CC9724A3D825007D9C2D /* Transports */,
+				AC86CCE824A3DAC1007D9C2D /* Antibodies.cpp */,
+				AC86CCEB24A3DAC1007D9C2D /* Bullet.cpp */,
+				AC86CCEA24A3DAC1007D9C2D /* Entity.cpp */,
+				AC86CCE924A3DAC1007D9C2D /* Player.cpp */,
+				AC86CCEC24A3DAC1007D9C2D /* Sick.cpp */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AC86CC9524A3D7FA007D9C2D /* Tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CD0A24A3DC00007D9C2D /* tinystr.cpp */,
+				AC86CCC024A3D9C0007D9C2D /* tinyxml.cpp */,
+				AC86CCBF24A3D9C0007D9C2D /* tinyxmlerror.cpp */,
+				AC86CCC124A3D9C0007D9C2D /* tinyxmlparser.cpp */,
+			);
+			path = Tinyxml;
+			sourceTree = "<group>";
+		};
+		AC86CC9624A3D812007D9C2D /* Armors */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CD0024A3DAD3007D9C2D /* Armor.cpp */,
+				AC86CD0124A3DAD3007D9C2D /* Cap.cpp */,
+				AC86CCFF24A3DAD3007D9C2D /* Robe.cpp */,
+				AC86CCFE24A3DAD3007D9C2D /* Shoes.cpp */,
+			);
+			path = Armors;
+			sourceTree = "<group>";
+		};
+		AC86CC9724A3D825007D9C2D /* Transports */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CCF824A3DACC007D9C2D /* SafeTransport.cpp */,
+				AC86CCFA24A3DACC007D9C2D /* Transport.cpp */,
+				AC86CCF924A3DACC007D9C2D /* UnSafeTransport.cpp */,
+			);
+			path = Transports;
+			sourceTree = "<group>";
+		};
+		AC86CC9824A3D82F007D9C2D /* Enemies */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0D85224D367CF0005A1F0 /* Breaker.cpp */,
+				ACB0D85424D367CF0005A1F0 /* Delivery.cpp */,
+				ACB0D85324D367CF0005A1F0 /* Virus.cpp */,
+				AC86CCF224A3DAC7007D9C2D /* Enemy.cpp */,
+				AC86CCF324A3DAC7007D9C2D /* Police.cpp */,
+			);
+			path = Enemies;
+			sourceTree = "<group>";
+		};
+		AC86CC9924A3D83A007D9C2D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CC9C24A3D84F007D9C2D /* Armors */,
+				AC86CC9E24A3D865007D9C2D /* Enemies */,
+				AC86CC9D24A3D856007D9C2D /* Transports */,
+				AC86CCB024A3D9A1007D9C2D /* Antibodies.h */,
+				AC86CCB424A3D9A1007D9C2D /* Bullet.h */,
+				AC86CCB224A3D9A1007D9C2D /* Entity.h */,
+				AC86CCB324A3D9A1007D9C2D /* Player.h */,
+				AC86CCB124A3D9A1007D9C2D /* Sick.h */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AC86CC9A24A3D841007D9C2D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CCAE24A3D996007D9C2D /* Animation.h */,
+				AC86CCAF24A3D996007D9C2D /* AnimationManager.h */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		AC86CC9B24A3D849007D9C2D /* Tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CD0C24A3DC1A007D9C2D /* tinystr.h */,
+				AC86CCAD24A3D991007D9C2D /* tinyxml.h */,
+			);
+			path = Tinyxml;
+			sourceTree = "<group>";
+		};
+		AC86CC9C24A3D84F007D9C2D /* Armors */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CCBB24A3D9B2007D9C2D /* Armor.h */,
+				AC86CCBE24A3D9B2007D9C2D /* Cap.h */,
+				AC86CCBC24A3D9B2007D9C2D /* Robe.h */,
+				AC86CCBD24A3D9B2007D9C2D /* Shoes.h */,
+			);
+			path = Armors;
+			sourceTree = "<group>";
+		};
+		AC86CC9D24A3D856007D9C2D /* Transports */ = {
+			isa = PBXGroup;
+			children = (
+				AC86CCB824A3D9AC007D9C2D /* SafeTransport.h */,
+				AC86CCBA24A3D9AC007D9C2D /* Transport.h */,
+				AC86CCB924A3D9AC007D9C2D /* UnSafeTransport.h */,
+			);
+			path = Transports;
+			sourceTree = "<group>";
+		};
+		AC86CC9E24A3D865007D9C2D /* Enemies */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0D84F24D367A70005A1F0 /* Breaker.h */,
+				ACB0D85024D367A70005A1F0 /* Delivery.h */,
+				ACB0D85124D367A70005A1F0 /* Virus.h */,
+				AC86CCB524A3D9A7007D9C2D /* Enemy.h */,
+				AC86CCB724A3D9A7007D9C2D /* Police.h */,
+			);
+			path = Enemies;
+			sourceTree = "<group>";
+		};
+		AC8B853624B3A1C80091BAF2 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				AC639CC024C8DD3700436853 /* GameTreatPatientProgressBar.h */,
+				AC86CCA024A3D92A007D9C2D /* GameManager.h */,
+				AC8B853524B3A1140091BAF2 /* GameLabel.h */,
+				AC8B853A24B3ABFA0091BAF2 /* GameLabelManager.h */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AC8B853724B3A1DF0091BAF2 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				AC639CBE24C8DD2E00436853 /* GameTreatPatientProgressBar.cpp */,
+				AC86CCDE24A3DAB6007D9C2D /* GameManager.cpp */,
+				AC8B853824B3A2330091BAF2 /* GameLabel.cpp */,
+				AC8B853B24B3AC470091BAF2 /* GameLabelManager.cpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AC9196CB24AD398900C28412 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5034624E2C06F00150BEC /* ButtonsPressed.cpp */,
+				AC9196CE24AD39AD00C28412 /* Interface.cpp */,
+				AC9196CC24AD39AD00C28412 /* InterfaceButton.cpp */,
+				AC9196CD24AD39AD00C28412 /* InterfaceLabel.cpp */,
+				AC9196CF24AD39AD00C28412 /* InterfaceTable.cpp */,
+				AC9196D024AD39AD00C28412 /* InterfaceImage.cpp */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		AC9196D624AD39BE00C28412 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				ACF5034824E2C07800150BEC /* ButtonsPressed.h */,
+				AC9196D724AD39D500C28412 /* Interface.h */,
+				AC9196D924AD39D500C28412 /* InterfaceButton.h */,
+				AC9196DB24AD39D500C28412 /* InterfaceLabel.h */,
+				AC9196DA24AD39D500C28412 /* InterfaceTable.h */,
+				AC9196D824AD39D500C28412 /* InterfaceImage.h */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		ACD5BC3A24F8447C00F2741E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD5BC3B24F8447C00F2741E /* FLAC.framework */,
+				ACD5BC4624F8447C00F2741E /* freetype.framework */,
+				ACD5BC4524F8447C00F2741E /* ogg.framework */,
+				ACD5BC3D24F8447C00F2741E /* OpenAL.framework */,
+				ACD5BC4724F8447C00F2741E /* sfml-audio.framework */,
+				ACD5BC3C24F8447C00F2741E /* sfml-graphics.framework */,
+				ACD5BC4124F8447C00F2741E /* sfml-network.framework */,
+				ACD5BC4224F8447C00F2741E /* sfml-system.framework */,
+				ACD5BC3F24F8447C00F2741E /* sfml-window.framework */,
+				ACD5BC4024F8447C00F2741E /* SFML.framework */,
+				ACD5BC3E24F8447C00F2741E /* vorbis.framework */,
+				ACD5BC4424F8447C00F2741E /* vorbisenc.framework */,
+				ACD5BC4324F8447C00F2741E /* vorbisfile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0B2205249ED1F6000CE7AC /* VirusHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0B221B249ED1F6000CE7AC /* Build configuration list for PBXNativeTarget "VirusHunter" */;
+			buildPhases = (
+				AC0B2201249ED1F6000CE7AC /* Sources */,
+				AC0B2202249ED1F6000CE7AC /* Frameworks */,
+				AC0B2203249ED1F6000CE7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirusHunter;
+			productName = BeatCovid;
+			productReference = AC0B2206249ED1F6000CE7AC /* VirusHunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0B21FD249ED1F6000CE7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Сергей Алехин";
+				TargetAttributes = {
+					AC0B2205249ED1F6000CE7AC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AC0B2200249ED1F6000CE7AC /* Build configuration list for PBXProject "VirusHunter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0B21FC249ED1F6000CE7AC;
+			productRefGroup = AC0B2207249ED1F6000CE7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0B2205249ED1F6000CE7AC /* VirusHunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0B2203249ED1F6000CE7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5A7D9F24A37B5D00F54A6E /* Images.xcassets in Resources */,
+				ACD5BC9924F844F800F2741E /* files in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0B2201249ED1F6000CE7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC86CD0824A3DAD9007D9C2D /* AnimationManager.cpp in Sources */,
+				AC9196D324AD39AD00C28412 /* Interface.cpp in Sources */,
+				ACF5034724E2C06F00150BEC /* ButtonsPressed.cpp in Sources */,
+				AC86CCF524A3DAC7007D9C2D /* Enemy.cpp in Sources */,
+				AC86CD0524A3DAD3007D9C2D /* Cap.cpp in Sources */,
+				AC86CCE624A3DAB6007D9C2D /* MusicManager.cpp in Sources */,
+				AC86CCF624A3DAC7007D9C2D /* Police.cpp in Sources */,
+				AC86CCEF24A3DAC1007D9C2D /* Entity.cpp in Sources */,
+				AC86CCF124A3DAC1007D9C2D /* Sick.cpp in Sources */,
+				AC86CCFB24A3DACD007D9C2D /* SafeTransport.cpp in Sources */,
+				AC86CCC224A3D9C0007D9C2D /* tinyxmlerror.cpp in Sources */,
+				AC86CD0924A3DAD9007D9C2D /* Animation.cpp in Sources */,
+				ACB0D85624D367CF0005A1F0 /* Virus.cpp in Sources */,
+				AC8B853C24B3AC470091BAF2 /* GameLabelManager.cpp in Sources */,
+				AC86CCC324A3D9C0007D9C2D /* tinyxml.cpp in Sources */,
+				AC86CD0324A3DAD3007D9C2D /* Robe.cpp in Sources */,
+				ACB0D85524D367CF0005A1F0 /* Breaker.cpp in Sources */,
+				AC86CD0224A3DAD3007D9C2D /* Shoes.cpp in Sources */,
+				AC86CCFD24A3DACD007D9C2D /* Transport.cpp in Sources */,
+				AC0B220F249ED1F6000CE7AC /* main.cpp in Sources */,
+				AC86CCED24A3DAC1007D9C2D /* Antibodies.cpp in Sources */,
+				AC86CCC424A3D9C0007D9C2D /* tinyxmlparser.cpp in Sources */,
+				AC86CCE724A3DAB6007D9C2D /* SaveGame.cpp in Sources */,
+				AC9196D124AD39AD00C28412 /* InterfaceButton.cpp in Sources */,
+				AC639CBF24C8DD2E00436853 /* GameTreatPatientProgressBar.cpp in Sources */,
+				AC86CCEE24A3DAC1007D9C2D /* Player.cpp in Sources */,
+				AC9196D424AD39AD00C28412 /* InterfaceTable.cpp in Sources */,
+				ACB0D85724D367CF0005A1F0 /* Delivery.cpp in Sources */,
+				AC86CD0424A3DAD3007D9C2D /* Armor.cpp in Sources */,
+				AC9196D524AD39AD00C28412 /* InterfaceImage.cpp in Sources */,
+				AC9196D224AD39AD00C28412 /* InterfaceLabel.cpp in Sources */,
+				AC86CCF024A3DAC1007D9C2D /* Bullet.cpp in Sources */,
+				AC86CCE524A3DAB6007D9C2D /* Level_map.cpp in Sources */,
+				AC86CD0B24A3DC01007D9C2D /* tinystr.cpp in Sources */,
+				AC86CCFC24A3DACD007D9C2D /* UnSafeTransport.cpp in Sources */,
+				AC8B853924B3A2330091BAF2 /* GameLabel.cpp in Sources */,
+				AC86CCE424A3DAB6007D9C2D /* GameManager.cpp in Sources */,
+				AC0B220C249ED1F6000CE7AC /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC0B2219249ED1F6000CE7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		AC0B221A249ED1F6000CE7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		AC0B221C249ED1F6000CE7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = VirusHunter/VirusHunter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.4;
+				DEVELOPMENT_TEAM = VYDPJANCG8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"${SRCROOT}/VirusHunter/SFML/Frameworks",
+					"$(PROJECT_DIR)/VirusHunter/SFML/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "${SRCROOT}/VirusHunter/SFML/include";
+				INFOPLIST_FILE = "VirusHunter/VirusHunter-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = YSPN.VirusHunter.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		AC0B221D249ED1F6000CE7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = VirusHunter/VirusHunter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.4;
+				DEVELOPMENT_TEAM = VYDPJANCG8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"${SRCROOT}/VirusHunter/SFML/Frameworks",
+					"$(PROJECT_DIR)/VirusHunter/SFML/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "${SRCROOT}/VirusHunter/SFML/include";
+				INFOPLIST_FILE = "VirusHunter/VirusHunter-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = YSPN.VirusHunter.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0B2200249ED1F6000CE7AC /* Build configuration list for PBXProject "VirusHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0B2219249ED1F6000CE7AC /* Debug */,
+				AC0B221A249ED1F6000CE7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0B221B249ED1F6000CE7AC /* Build configuration list for PBXNativeTarget "VirusHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0B221C249ED1F6000CE7AC /* Debug */,
+				AC0B221D249ED1F6000CE7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0B21FD249ED1F6000CE7AC /* Project object */;
+}
