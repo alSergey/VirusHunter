@@ -15,3 +15,5 @@ VirusHunter - это игра, которая была разработанна 
 
 ### Используемые ресурсы:
 При разработке были используемы библиотека  [SFML](https://www.sfml-dev.org) и [TinyXML](http://www.grinninglizard.com/tinyxml2/index.html)
+
+## Разработка веласть на [GitLab](https://gitlab.com/a.sergey/beatcovid)
